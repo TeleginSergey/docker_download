@@ -48,6 +48,7 @@ don't forget reboot docker with this command
 sudo systemctl restart docker
 ```
 
+**RELOAD YOUR COMPUTER**
 Then you need to restart and check that the following command is executed **WITHOUT root privileges**:
 
 ```
