@@ -43,6 +43,10 @@ sudo usermod -aG docker $USER
 ```
 newgrp docker
 ```
+don't forget reboot docker with this command
+```
+sudo systemctl restart docker
+```
 
 Then you need to restart and check that the following command is executed **WITHOUT root privileges**:
 
